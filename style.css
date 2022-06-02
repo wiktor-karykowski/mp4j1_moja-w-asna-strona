@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,200;1,900&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Mulish', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+table, th{
+    width: 70%;
+    height: 25%;
+    border: 3px solid;
+}
+
+tr, td{
+    border: 1.5px solid;
+}
+
+.navi{
+    width: 100%;
+    height: 7%;
+}
+
+.navi .list{
+    width: 25%;
+    height: 100%;
+    font-size: 2.5rem;    
+    background-color: black;
+    color: white;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    transition: 250ms;
+}
+
+.navi .list:hover{
+    background-color: white;
+    color: black;
+    transition: 500ms;
+}
+
+.banner{
+    width: 100%;
+    height: 8%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars{
+    width: 100%;
+    height: 78%;
+}
+
+.descriptions{
+    width: 100%;
+    height: 5%;
+    font-size: 1.5rem;
+}
+
+.descriptions .description{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 250ms;
+}
+
+.descriptions .description a{
+    color: black;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+.descriptions .description a:hover{
+    letter-spacing: 5px;
+    transition: 500ms;
+}
+
+.footer{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+.content{
+    width: 95%;
+    height: 83%;
+    margin: auto;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.raceCar{
+    width: 95%;
+    height: 83%;
+    margin: auto;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.raceCar .first{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.raceCar .first .uWannaBuy{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.raceCar .first .parameters{
+    width: 100%;
+    height: 50%;
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.raceCar .toy{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    float: left;
+    justify-content: flex-end;
+}
+
+.offer{
+    width: 90%;
+    height: 233%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.ourOffer{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.ourOffer .car{
+    width: 100%;
+    height: 25%;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} 
+
+.ourOffer .car a{
+    font-size: 1.75rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nieMamPomysluNaNazwe{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.nieMamPomysluNaNazwe .znowuNieMamPomysluNaNazwe{
+    width: 100%;
+    height: 25%;
+}
+
+.aboutUs, .contact{
+    font-size: 1.75rem;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 15px;
+    border-radius: 28px;
+    border: 1px solid;
+    list-style: none;
+    transition: 250ms;
+}
+
+#submit:hover{
+    background-color: white;
+    color: black;
+    transition: 500ms;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>szybkafura.pl</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="navi">
+        <a href="index.html"><div class="list">Strona główna</div></a>
+        <a href="aboutUs.html"><div class="list">O wypożyczalni</div></a>
+        <a href="ourOffer.html"><div class="list">Nasza oferta</div></a>
+        <a href="contact.html"><div class="list">Kontakt</div></a>
+    </div>
+    <div class="banner">
+        <p>Honda Civic Type-R</p>
+    </div>
+    <div class="raceCar">
+        <div class="first">
+            <div class="uWannaBuy">
+                <form>
+                    Na ile dni chciałbyś wypożyczyć auto? (max. 14 dni)  <input id="days" type="number" min="1" max="14"><br><br>
+                    Czy chciałbyś wykupić pakiet dodatkowego ubezpieczenia? (50 PLN/doba)   <input id="insurance" type="checkbox"><br><br>
+                    Sprawdź ofertę!   <input id="submit" type="submit" value="Wyślij" onclick="calc()"><br><br>
+                </form>
+            </div>
+            <div class="parameters">
+                <table>
+                    <tr>
+                        <th colspan="2">Dane techniczne</th>
+                    </tr>
+                    <tr>
+                        <td>Marka, model:</td>
+                        <td>Honda Civic Type-R</td>
+                    </tr>
+                    <tr>
+                        <td>Pojemność, moc:</td>
+                        <td>1996 cm3, 320km</td>
+                    </tr>
+                    <tr>
+                        <td>Przyspieszenie 0-100 km/h:</td>
+                        <td>5,5 sekundy</td>
+                </tr>
+                <tr>
+                    <td>Napęd, waga:</td>
+                        <td>Przedni, 1390kg</td>
+                    </tr>
+                    <tr>
+                        <td>Cena za dobę:</td>
+                        <td>950 PLN</td>
+                        <input id="price" type="hidden" value="950">
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="toy">
+            <img src="jpg's/hondacivictyper.jpg" alt="BMW M4">
+        </div>
+    </div>
+    <div class="footer">
+        <p>Autor: Wiktor Karykowski</p>
+    </div>
+</body>
+</html>
+
+
+
